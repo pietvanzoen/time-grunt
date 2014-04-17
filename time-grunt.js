@@ -145,6 +145,6 @@ module.exports = function (grunt) {
 		// `grunt.log.header` should be unhooked above, but in some cases it's not
 		log('\n\n' + chalk.underline('Execution Time') + chalk.gray(' (' + startTimePretty + ')'));
 		log(formatTable(tableData) + '\n');
-		process.exit(exitCode);
+		// process.exit(exitCode);
 	});
 };
