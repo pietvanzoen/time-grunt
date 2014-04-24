@@ -13,7 +13,7 @@ function log(str) {
 }
 
 module.exports = function (grunt) {
-	var BAR_CHAR = process.platform === 'win32' ? '■' : '▇';
+	var BAR_CHAR = '■';
 	var now = new Date();
 	var startTimePretty = dateTime();
 	var startTime = now.getTime();
